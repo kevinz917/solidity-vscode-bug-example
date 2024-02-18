@@ -1,6 +1,11 @@
+// {
+//   "solidity.formatter": "forge",
+//   "solidity.packageDefaultDependenciesContractsDirectory": "src",
+//   "solidity.packageDefaultDependenciesDirectory": "lib",
+//   "solidity.remappings": ["ds-test/=lib/forge-std/lib/ds-test/src/", "forge-std/=lib/forge-std/src/", "solmate/=lib/solmate/src/"]
+// }
+
 {
-  "solidity.formatter": "forge",
-  "solidity.packageDefaultDependenciesContractsDirectory": "src",
-  "solidity.packageDefaultDependenciesDirectory": "lib",
-  "solidity.remappings": ["ds-test/=lib/forge-std/lib/ds-test/src/", "forge-std/=lib/forge-std/src/", "solmate/=lib/solmate/src/"]
+  "solidity.compileUsingRemoteVersion": "v0.8.20+commit.a1b79de6",
+  "solidity.packageDefaultDependenciesContractsDirectory": "['src', '', 'contracts']"
 }

@@ -64,3 +64,4 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+# solidity-vscode-bug-example

@@ -13,7 +13,7 @@ contract Counter is ERC20 {
     ) ERC20(_name, _symbol, 18) {}
 
     function setNumber(uint256 newNumber) public {
-        number = newNumber;  
+        number = newNumber;
     }
 
     function increment() public {

@@ -8,9 +8,10 @@
 {
   "solidity.compileUsingRemoteVersion": "v0.8.20+commit.a1b79de6",
   "solidity.packageDefaultDependenciesDirectory": "['node_modules','lib']",
-  "solidity.packageDefaultDependenciesContractsDirectory": "['src', '', 'contracts']"
+  "solidity.packageDefaultDependenciesContractsDirectory": "['src', '', 'contracts']",
+  "solidity.defaultCompiler": "localNodeModule",
+  "solidity.remappings": ["@openzeppelin/=node_modules/@openzeppelin/", "ds-test/=lib/forge-std/lib/ds-test/src/", "forge-std/=lib/forge-std/src/", "solmate/=lib/solmate/src/"]
 }
-
 
 //we need '' in packageDefaultDependenciesContractsDirectory so it can resolve openzeppelin
 //'contracts is not ncessary'

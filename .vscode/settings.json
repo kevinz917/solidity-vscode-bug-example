@@ -6,10 +6,9 @@
 // }
 
 {
-  "solidity.compileUsingRemoteVersion": "v0.8.20+commit.a1b79de6",
+  "solidity.compileUsingRemoteVersion": "v0.8.24+commit.e11b9ed9",
   "solidity.packageDefaultDependenciesDirectory": "['node_modules','lib']",
   "solidity.packageDefaultDependenciesContractsDirectory": "['src', '', 'contracts']",
-  "solidity.defaultCompiler": "localNodeModule",
   "solidity.remappings": ["@openzeppelin/=node_modules/@openzeppelin/", "ds-test/=lib/forge-std/lib/ds-test/src/", "forge-std/=lib/forge-std/src/", "solmate/=lib/solmate/src/"]
 }
 
